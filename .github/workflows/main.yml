@@ -25,4 +25,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: sareen/nodejs-demo-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/nodejs-demo-app:latest
