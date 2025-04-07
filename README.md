@@ -10,7 +10,7 @@ This is my solution for the DevOps internship Task 1: Automating a Node.js app d
 ## How It Works
 1. Push code to the `main` branch.
 2. GitHub Actions builds the Docker image.
-3. The image is pushed to `<your-dockerhub-username>/nodejs-demo-app:latest`.
+3. The image is pushed to `sareen/nodejs-demo-app:latest`.
 
 ## Files
 - `app.js`: The Node.js application.
@@ -20,5 +20,5 @@ This is my solution for the DevOps internship Task 1: Automating a Node.js app d
 ## How to Test
 Run this on any machine with Docker:
 ```bash
-docker pull <your-dockerhub-username>/nodejs-demo-app:latest
-docker run -d -p 3000:3000 <your-dockerhub-username>/nodejs-demo-app:latest
+docker pull sareen/nodejs-demo-app:latest
+docker run -d -p 3000:3000 sareen/nodejs-demo-app:latest
